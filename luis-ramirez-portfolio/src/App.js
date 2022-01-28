@@ -8,6 +8,7 @@ function App() {
     return (
         <div>
             <Header/>
+            <Project/>
             <Footer/>
         </div>
     )
