@@ -1,19 +1,12 @@
 import React from "react";
-import portfolioPicture from '../images/Portfolio_Picture.jpg';
-import '../styles/Project.css'
+import portfolioPicture from '../../images/Portfolio_Picture.jpg';
+import '../../styles/Project.css'
 
-const styles = {
-    asideStyles: {
-        img:{
-            height:'500px',
-            width:'500px',
-        }
-    }
-}
+
 
 function Project () {
     return (
-        <div>
+        <div id='about-container'>
             <aside>
                 <img 
                 src={portfolioPicture} 
@@ -26,9 +19,7 @@ function Project () {
                 Currently I am a Sales rep with Best Buy where I have a lot of fun tinkering with new tech and interacting with people from all sorts of backgrounds. I hope to soon transition into a career in web development where I can continue to grow my skill set. 
                 </p>
             </section>
-            <section>
-                <h3>Hobbies</h3>
-            </section>
+            
         </div>
     )
 }

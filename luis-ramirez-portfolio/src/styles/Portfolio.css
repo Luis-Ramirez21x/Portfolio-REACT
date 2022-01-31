@@ -1,0 +1,32 @@
+.carousel {
+    
+    width: 83%;
+    border-radius: 50px;
+    margin: auto;
+    margin-top: 50px;
+
+}
+
+.carousel-inner{
+    border-radius: 50px;
+    border:1px solid black;
+}
+
+.carousel-caption{
+    background-color:#011627;
+    border-radius: 50px;
+    
+
+    
+}
+
+.carousel-caption a{
+    display: block;
+    color:#2EC4B6;
+    text-decoration: none;
+}
+
+
+
+
+

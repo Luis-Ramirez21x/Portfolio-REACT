@@ -1,8 +1,15 @@
-nav{
-    background-color: black;
-    color:blue;
+#icons{
+    height:50px;
+    width:50px;
+    border-radius: 10px;
+
+
 }
 
-a{
-    color:blue;
+#footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding:10px;
 }
+

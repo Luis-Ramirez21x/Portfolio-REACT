@@ -1,18 +1,19 @@
 import React from 'react';
 import '../styles/Footer.css';
+import linkedinIcon from '../images/icons/linked-in.png'
+import githubIcon from '../images/icons/github.png'
+import '../styles/Footer.css'
 
-const styles = {
-    footerStyles:{
-        color:'blue',
-    }
-}
+
 
 function Footer () {
     return (
-        <nav class="navbar fixed-bottom navbar-dark bg-dark">
-            <div class="container-fluid">
-                <a style={styles.footerStyles}class="navbar-brand" href="/">Fixed bottom</a>
+        <nav className="navbar fixed-bottom navbar-dark bg-dark">
+            <div className="container-fluid" id='footer'>
+                <a href='https://www.linkedin.com/in/luis-ramirez-54236a216/'><img src={linkedinIcon} id='icons'/></a>
+                <a href='https://github.com/Luis-Ramirez21x'><img src={githubIcon} id='icons'/></a>
             </div>
+            
         </nav>
     )
 }

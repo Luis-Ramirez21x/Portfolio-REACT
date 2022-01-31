@@ -1,30 +1,44 @@
 import React from 'react';
+import '../styles/Navbar.css'
 
-function Navigation () {
+function Navigation ({ currentPage, handlePageChange }) {
     return(
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="/">Navbar w/ text</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
+        <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div className="container-fluid">
+    
+    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+      <span className="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarText">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="/">About Me</a>
+    <div className="collapse navbar-collapse" id="navbarText">
+      <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+        <li className="nav-item">
+          <a className={currentPage === 'About' ? 'nav-link active' : 'nav-link'} 
+          aria-current="page" 
+          href="about"
+          onClick={() => handlePageChange('About')}
+          >About Me</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/">Portfolio</a>
+        <li className="nav-item">
+          <a className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'} 
+          href="#portfolio"
+          onClick={() => handlePageChange('Portfolio')}
+          >Portfolio</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/">Contact</a>
+        <li className="nav-item">
+          <a className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'} 
+          href="#contact"
+          onClick={() => handlePageChange('Contact')}
+          >Contact</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/">Resume</a>
+        <li className="nav-item">
+          <a className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'} 
+          href="#resume"
+          onClick={() => handlePageChange('Resume')}
+          >Resume</a>
         </li>
       </ul>
-      <span class="navbar-text">
-        Navbar text with an inline element
+      <span className="navbar-text">
+        <i>~lets create</i>
       </span>
     </div>
   </div>
