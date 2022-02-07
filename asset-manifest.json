@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Portfolio-REACT/static/css/main.d8cc8a7c.css",
+    "main.js": "/Portfolio-REACT/static/js/main.c446ba0b.js",
+    "static/media/Portfolio_Picture.jpg": "/Portfolio-REACT/static/media/Portfolio_Picture.2a52e948b1de504215ab.jpg",
+    "static/media/nba_app.PNG": "/Portfolio-REACT/static/media/nba_app.ff0aa3d5241d1306d68b.PNG",
+    "static/media/socialnetwork_api.PNG": "/Portfolio-REACT/static/media/socialnetwork_api.f685b8b7576b61216643.PNG",
+    "static/media/Luis-Ramirez-Resume.pdf": "/Portfolio-REACT/static/media/Luis-Ramirez-Resume.d7d27122a0fa0b8338aa.pdf",
+    "static/media/techblog_app.PNG": "/Portfolio-REACT/static/media/techblog_app.c026122cfe60358e6e9a.PNG",
+    "static/media/Weather_app.PNG": "/Portfolio-REACT/static/media/Weather_app.399816f839be37dc5173.PNG",
+    "static/media/github.png": "/Portfolio-REACT/static/media/github.1684797e152c3068b84a.png",
+    "static/media/task_manager_app.PNG": "/Portfolio-REACT/static/media/task_manager_app.0d7b20e580dcfd45ea26.PNG",
+    "static/media/JATE_app.PNG": "/Portfolio-REACT/static/media/JATE_app.651690df7af3ae52f3d2.PNG",
+    "index.html": "/Portfolio-REACT/index.html",
+    "main.d8cc8a7c.css.map": "/Portfolio-REACT/static/css/main.d8cc8a7c.css.map",
+    "main.c446ba0b.js.map": "/Portfolio-REACT/static/js/main.c446ba0b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d8cc8a7c.css",
+    "static/js/main.c446ba0b.js"
+  ]
+}
